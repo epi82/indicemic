@@ -95,13 +95,13 @@ Ext.onReady(function(){
           },          
           {xtype: 'tbseparator'},
           {
-            text:'<div align="center" class="testoicone">Shop AMINT</div>',      
+            text:'<div align="center" class="testoicone">Iscriviti AMINT</div>',      
             iconCls:'shop',
             listeners: { 
                 render: function(button){ 
                     button.getEl().on('click', function(){ 
                         //alert('works in IE6, IE8, FF');
-                        location.href='http://shop.amint.it/';                
+                        location.href='http://www.funghiitaliani.it/index.php?app=nexus';                
                     }); 
                 } 
             }       
