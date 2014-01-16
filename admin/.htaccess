@@ -1,0 +1,4 @@
+AuthType Basic
+AuthName "Pannello Amministrazione"
+AuthUserFile "/home/curtiptr/.htpasswds/public_html/funghi/admin/passwd"
+require valid-user
