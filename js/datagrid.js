@@ -197,8 +197,8 @@ Ext.onReady(function(){
             {id:'regno', header: "Regno", width: 130, hidden: true, sortable: true, renderer: fam, dataIndex: 'regno', filter:{ }},
             {id:'divisione', header: "Divisione", width: 130, hidden: true, sortable: true, renderer: fam, dataIndex: 'divisione', filter:{ }},
             {id:'classe', header: "Classe", width: 130, hidden: true, sortable: true, renderer: fam, dataIndex: 'classe', filter:{ }},
-            {id:'ordine', header: "Ordine", width: 130, sortable: true, renderer: fam, dataIndex: 'ordine', filter:{ }},
-            {id:'famiglia', header: "Famiglia", width: 130, hidden: true, sortable: true, renderer: fam, dataIndex: 'famiglia', filter:{ }},                        
+            {id:'ordine', header: "Ordine", width: 130, hidden: true, sortable: true, renderer: fam, dataIndex: 'ordine', filter:{ }},
+            {id:'famiglia', header: "Famiglia", width: 130, sortable: true, renderer: fam, dataIndex: 'famiglia', filter:{ }},                        
             {id:'comme', header: "Com.", width: 53, align: 'center', sortable: false, renderer: comme, dataIndex: 'comme',              
               filter: 
               {
